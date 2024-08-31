@@ -1,0 +1,31 @@
+Task Tide App
+
+
+## Running Locally
+
+To run this project locally, follow these steps:
+
+STEP 1. Download the Project
+
+Clone the repository or download the ZIP file from GitHub:
+```bash
+git clone https://github.com/username/repository-name.git
+
+cd path/to/repository-name
+
+STEP 2. Navigate to the project directory
+
+	cd path/to/repository-name
+	
+	(OR)
+
+	Go to the location of the file where the "Main.html" file is Located, click on the "Address Bar" -> Delete the Path -> type "cmd" -> Command Prompt will open on this Directory -> type "python -m http.server 5500" -> then Open your web browser and go to "http://127.0.0.1:5500/Main.html".
+
+
+
+If you use Visual Studio Code:
+
+Open the project folder in VS Code.
+Install the Live Server extension if you haven’t already.
+Right-click on Main.html and select Open with Live Server.
+	

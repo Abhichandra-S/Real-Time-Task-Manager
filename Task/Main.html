@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tide App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Timely Task Tracker</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter task">
+            <input type="time" id="startTimeInput">
+            <input type="time" id="endTimeInput">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
